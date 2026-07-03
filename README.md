@@ -26,13 +26,13 @@ No Windows PowerShell:
 .\venv\Scripts\Activate.ps1
 ```
 
-Instale as dependencias:
+Instale as dependências:
 
 ```text
 pip install -r requirements.txt
 ```
 
-Execute a aplicacao:
+Execute a aplicação:
 
 ```text
 python app.py
