@@ -1,50 +1,58 @@
 # Organizador de Estudos - API
 
+## Descrição
+
 API em Flask do projeto **Organizador de Estudos**.
 
-Ela permite cadastrar, listar, buscar, atualizar e remover atividades acadêmicas, como provas, trabalhos, leituras e entregas.
+O projeto permite cadastrar, listar, buscar, atualizar e remover atividades acadêmicas, como provas, trabalhos, leituras e entregas.
 
-## Como executar
+## Requisitos
 
-Acesse a pasta da API:
+- Python instalado na máquina.
+- `pip` para instalar as dependências.
+- Navegador ou ferramenta de API para acessar a documentação Swagger.
+
+## Instalação
+
+1. Acesse a pasta da API:
 
 ```text
 cd meu_app_api
 ```
 
-Crie um ambiente virtual:
+2. Crie um ambiente virtual:
 
 ```text
 python -m venv venv
 ```
 
-Ative o ambiente virtual:
-
-No Windows PowerShell:
+3. Ative o ambiente virtual no Windows PowerShell:
 
 ```text
 .\venv\Scripts\Activate.ps1
 ```
 
-Instale as dependências:
+4. Instale as dependências do projeto:
 
 ```text
 pip install -r requirements.txt
 ```
 
-Execute a aplicação:
+## Como executar
+
+Execute a aplicação com Python:
 
 ```text
 python app.py
 ```
 
-Ou execute com Flask:
+Também é possível executar com Flask:
 
 ```text
 flask run --host 0.0.0.0 --port 5000
 ```
 
-Com o servidor rodando:
+Com o servidor rodando, acesse:
 
 ```text
 http://127.0.0.1:5000
@@ -52,7 +60,9 @@ http://127.0.0.1:5000
 
 Esse endereço abre a documentação Swagger da API.
 
-Para usar o front-end, abra no navegador o arquivo `index.html` do repositório `meu_app_front`:
+## Uso com o front-end
+
+Para usar a interface web, mantenha esta API em execução e abra o arquivo `index.html` do repositório `meu_app_front` no navegador:
 
 ```text
 meu_app_front/index.html
